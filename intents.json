@@ -1,0 +1,29 @@
+{"intents": [
+  {"tag": "greetings" ,
+  "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","what can i do for you?"]
+  },
+  {"tag": "vdi" ,
+  "patterns": ["issue in citrix?","issue in VNC?","I am facing issues with citrix. What to do?","I am facing issues with VNC. What to do?"],
+  "responses": ["Drop a mail to it.servicedesk@amd.com"]
+  },
+  {"tag": "office" ,
+  "patterns": ["license issue in office?","how to fix license issue in office?"],
+  "responses": ["1.Click the Start button on the desktop, type apps in the search box and click Apps & features on the menu.\n2. Find the Microsoft Office 365, the application in the list.\n3. Click Modify.\n"]
+  },
+  {"tag": "update" ,
+  "patterns": ["update office?","How to update office?"],
+  "responses": ["1. Open any Office application, such as Word, Excel or PowerPoint. Click on File, at top left of any Office application. \n2. Click on Account or Office Account in the list.\n3. Under Product Information, to the left of Office Updates, click on Update Options.\n4. From the list, click Update Now.\n5. Microsoft Office checks for updates. If any updates are found, they are downloaded.\n6. Once updates are downloaded, you are prompted to close any open Office applications. When you are ready, click on Continue. \n7. The updates are applied. When the updates are finished, reopen the Office applications.\n"]
+  },
+  {"tag": "Forgot Password" ,
+  "patterns": ["reset my password?","change my password?","How to reset my password?","How to change my password?"],
+  "responses": ["1.go to the identity manager.\n2. login with your id password\n3. click on Reset password\n4. follow all company policies for setting up a password\n5. click on submit."]
+  },
+  {"tag": "Zoom" ,
+  "patterns": ["zoom on citrix?","How to use zoom on citrix?"],
+  "responses": ["1.in your Xilinx / personal laptop, download and install the Zoom Plugin for Citrix Receiver.\n2. Login to Xilinx VDI.\n3. Launch the Zoom app and log in.\n4. You now can use Zoom on VDI to start or join a Zoom meeting.\n"]
+  },
+  {"tag": "goodbye" ,
+  "patterns": ["bye","Thank you","goodbye","see ya"],
+  "responses": ["sad to see you go :(","Talk to you later","Goodbye!"]}
+]}
